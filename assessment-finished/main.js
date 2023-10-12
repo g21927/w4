@@ -8,6 +8,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
+
 const storyText = '津田の気温は摂氏で32度。:insertx: は散歩に出かけました。:inserty: に到着すると、彼らは数分間恐怖に見入っていました。その後、:insertz:。ボブはすべてを見ていましたが、驚きませんでした — :insertx: は300ポンドあり、それは暑い日でした。'';
 const insertX = ['ウィリー・ゴブリン', 'ビッグ・ダディ', 'サンタクロース'];
 const insertY = ['スープキッチン', 'ディズニーランド', 'ホワイトハウス'];
