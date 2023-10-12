@@ -2,6 +2,7 @@ const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
+console.log("start main.js");
 function randomValueFromArray(array){
   const random = Math.floor(Math.random()*array.length);
   return array[random];
@@ -16,6 +17,7 @@ randomize.addEventListener('click', result);
 
 function result() {
   let newStory = storyText;
+  console.log("start result");
 
   const xItem = randomValueFromArray(insertX);
   const yItem = randomValueFromArray(insertY);
